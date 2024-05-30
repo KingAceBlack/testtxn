@@ -22,24 +22,7 @@ let player = {
 // export const config = {
 //   runtime: 'edge',
 // }
-const arbitrumChain = {
-  id: 42161,
-  name: 'Arbitrum One',
-  network: 'arbitrum',
-  nativeCurrency: {
-    name: 'Ether',
-    symbol: 'ETH',
-    decimals: 18,
-  },
-  rpcUrls: {
-    default: 'https://arb1.arbitrum.io/rpc',
-  },
-  blockExplorers: {
-    etherscan: { name: 'Arbiscan', url: 'https://arbiscan.io' },
-    default: { name: 'Arbiscan', url: 'https://arbiscan.io' },
-  },
-  testnet: false,
-};
+
 
 let progressMarker = {
 
