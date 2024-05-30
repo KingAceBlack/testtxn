@@ -30,7 +30,7 @@
         "name": "next"
       }
     ]
-    "allowImportingTsExtensions": true,
+    "allowImportingTsExtensions": true
   },
   "include": [
     "**/*.ts",
